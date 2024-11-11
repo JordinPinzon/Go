@@ -30,7 +30,7 @@ If you don't have Go installed yet, you can download and install it from " https
 Once you've cloned the repository and have Go installed, navigate to the project folder:
 cd Go
 
-then run the following command
+then run the following command:
 go mod init go-hello-world
 
 ## Start Server
