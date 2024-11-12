@@ -50,7 +50,7 @@ If you don't have Docker installed yet, download and install it from " https ://
 
 2. Download the image from Docker Hub
 Open your terminal and run the following command to download the Docker image:
-docker pull jordin13/go-app:nombre de etiqueta
+docker pull jordin13/go-app:latest
 
 ## Build the image
 build the image with the following command
