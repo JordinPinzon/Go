@@ -52,13 +52,9 @@ If you don't have Docker installed yet, download and install it from " https ://
 Open your terminal and run the following command to download the Docker image:
 docker pull jordin13/go-app:latest
 
-## Build the image
-build the image with the following command
-docker build -t go-hello-world .
-
 ## Run the Docker Image
 Once the image is downloaded, you can run a container with the following command:
-docker run -p 8081:8081 --name AppGo go-hello-world
+docker run -d -p 8081:8081 --name go-app jordin13/go-app:latest
 
 ## Access the Project
 Open your browser and go to the following address:
